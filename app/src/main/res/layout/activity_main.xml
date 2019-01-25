@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toby.tipcalculator.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="163dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="272dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="292dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5%" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10%" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15%" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
