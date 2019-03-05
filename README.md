@@ -1,4 +1,4 @@
-### TobTip 
+### Fast Tip
 Personal Project
 
 ## What is it?
